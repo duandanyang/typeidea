@@ -126,7 +126,7 @@ class Post(models.Model):
         return cls.objects.filter(status=cls.STATUS_NORMAL).order_by('-pv')
 
     def save(self, *args, **kwargs):
-        if self.id_md:
+        if self.is_md:
             self.content_html = mistune.markdown(self.content)
         else:
             self.content_html = self.content

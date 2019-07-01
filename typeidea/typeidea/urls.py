@@ -25,7 +25,7 @@ from django.contrib.sitemaps import views as sitemap_views
 from blog.rss import LatestPostFeed
 from blog.sitemap import PostSitemap
 
-from blog.apis import PostViewSet
+from blog.apis import PostViewSet, CategoryViewSet
 from blog.views import (
     IndexView, CategoryView, TagView,
     PostDetailView, SearchView, AuthorView
@@ -36,6 +36,7 @@ from .autocomplete import CategoryAutocomplete, TagAutocomplete
 
 router = DefaultRouter()
 router.register(r'post', PostViewSet, base_name='api-post')
+router.register(r'category', CategoryViewSet, base_name='api-category')
 
 urlpatterns = [
     url(r'^$', IndexView.as_view(), name='index'),

@@ -1,3 +1,16 @@
-*.pyc
-*.swp
+# Mac
+*.DS_Store
+
+# IDE
 *.idea
+
+# buildout, virtualenv
+bin/
+develop-eggs/
+eggs/
+venv/
+*.egg-info/
+__pycache__/
+*.py[cod]
+*.swp
+*.sqlite3

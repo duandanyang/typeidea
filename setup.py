@@ -47,7 +47,7 @@ setup(
         'future==0.17.1',
         'gprof2dot==2016.10.13',
         'hiredis==0.2.0',
-        'httplib2==0.9.2',
+        'httplib2==0.18.0',
         'idna==2.8',
         'ipython==7.6.1',
         'ipython-genutils==0.2.0',

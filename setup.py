@@ -41,7 +41,7 @@ setup(
         'django-rest-framework==0.1.0',
         'django-reversion==3.0.4',
         'django-silk==3.0.0',
-        'djangorestframework==3.9.4',
+        'djangorestframework==3.11.2',
         'djdt-flamegraph==0.2.12',
         'et-xmlfile==1.0.1',
         'future==0.17.1',

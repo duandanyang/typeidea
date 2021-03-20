@@ -54,7 +54,7 @@ setup(
         'itypes==1.1.0',
         'jdcal==1.4.1',
         'jedi==0.14.0',
-        'Jinja2==2.10.1',
+        'Jinja2==2.11.3',
         'MarkupSafe==1.1.1',
         'mistune==0.8.4',
         'odfpy==1.4.0',

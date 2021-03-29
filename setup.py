@@ -66,7 +66,7 @@ setup(
         'prompt-toolkit==2.0.9',
         'ptyprocess==0.6.0',
         'pycodestyle==2.5.0',
-        'Pygments==2.4.2',
+        'Pygments==2.7.4',
         'Pympler==0.5',
         'PyMySQL==0.9.3',
         'python-dateutil==2.8.0',

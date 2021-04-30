@@ -79,7 +79,7 @@ setup(
         'tablib==0.13.0',
         'traitlets==4.3.2',
         'uritemplate==3.0.0',
-        'urllib3==1.25.3',
+        'urllib3==1.25.8',
         'wcwidth==0.1.7',
         'xadmin==0.6.1',
         'xlrd==1.2.0',

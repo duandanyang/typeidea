@@ -62,7 +62,7 @@ setup(
         'parso==0.5.0',
         'pexpect==4.7.0',
         'pickleshare==0.7.5',
-        'Pillow==6.2.0',
+        'Pillow==8.3.2',
         'prompt-toolkit==2.0.9',
         'ptyprocess==0.6.0',
         'pycodestyle==2.5.0',

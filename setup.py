@@ -49,7 +49,7 @@ setup(
         'hiredis==0.2.0',
         'httplib2==0.9.2',
         'idna==2.8',
-        'ipython==7.6.1',
+        'ipython==7.16.3',
         'ipython-genutils==0.2.0',
         'itypes==1.1.0',
         'jdcal==1.4.1',

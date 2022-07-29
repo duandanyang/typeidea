@@ -56,7 +56,7 @@ setup(
         'jedi==0.14.0',
         'Jinja2==2.10.1',
         'MarkupSafe==1.1.1',
-        'mistune==0.8.4',
+        'mistune==2.0.3',
         'odfpy==1.4.0',
         'openpyxl==2.6.2',
         'parso==0.5.0',
